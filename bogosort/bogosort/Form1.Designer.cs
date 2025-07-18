@@ -92,6 +92,7 @@
             lbx_PreviousSorts.ItemHeight = 29;
             lbx_PreviousSorts.Location = new Point(12, 329);
             lbx_PreviousSorts.Name = "lbx_PreviousSorts";
+            lbx_PreviousSorts.SelectionMode = SelectionMode.None;
             lbx_PreviousSorts.Size = new Size(549, 526);
             lbx_PreviousSorts.TabIndex = 4;
             // 
@@ -210,7 +211,7 @@
             FormBorderStyle = FormBorderStyle.FixedSingle;
             Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Form1";
+            Text = "Bogo Sort";
             ((System.ComponentModel.ISupportInitialize)pbx_Slop).EndInit();
             ResumeLayout(false);
         }
